@@ -1,10 +1,5 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
-import AneesSir from "../../../public/teams/AneesAntapur.jpg";
-import PranavSir from "../../../public/teams/PranavG.jpg";
-import RiteshSir from "../../../public/teams/RiteshT.jpg";
-import YogeshSir from "../../../public/teams/YogeshS.jpg";
-import ShadanSir from "../../../public/teams/ShadanS.jpg";
 import JobListings from "./JobOpening";
 import PageHomeBanner from "../common/PageHomeBanner";
 import AOS from "aos";
@@ -33,7 +28,7 @@ const CarrierPage = () => {
   }, []);
 
   return (
-    <div className=" bg-gray-100 relative">
+    <div className="bg-gray-100 relative">
       {/* Background Section with Video */}
       <div>
         {/* Large screen banner */}
@@ -42,7 +37,7 @@ const CarrierPage = () => {
             title=""
             subtitle=""
             buttonText=""
-            backgroundImage="./Banners/Career_Banner.jpg"
+            backgroundImage="/Banners/Career_Banner.jpg" // Corrected path
             onButtonClick={() => alert("Button Clicked!")}
           />
         </div>
@@ -53,91 +48,17 @@ const CarrierPage = () => {
             title=""
             subtitle=""
             buttonText=""
-            backgroundImage="./Banners/Home_Interior_Banner.jpg"
+            backgroundImage="/Banners/Home_Interior_Banner.jpg" // Corrected path
             onButtonClick={() => alert("Button Clicked!")}
           />
         </div>
 
         <section className="main-container">
-          <div className=" top-spacing bottom-spacing mt-10">
+          <div className="top-spacing bottom-spacing mt-10">
             <JobListings />
           </div>
 
-          {/* Steps Section */}
-          <aside className="bottom-spacing">
-            {/* <motion.h2
-              className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12"
-              initial={{ opacity: 0, y: -50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}
-              data-aos="fade-up"
-            >
-              Get your estimate in 4 simple steps
-            </motion.h2> */}
-
-            <motion.h2
-              className="lg:text-4xl text-xl font-semibold text-[#104438] text-center"
-              initial={{ y: -50, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.6 }}
-            >
-              Get your estimate in 4 simple steps
-            </motion.h2>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 top-spacing">
-              {[
-                {
-                  step: "We focus on solutions",
-                  desc: "Rather than dwelling on problems, we create better answers—every single day",
-                  icon: <GiImpactPoint className="text-red-600" />,
-                },
-                {
-                  step: "We think 10X",
-                  desc: "Quality is non-negotiable, but speed beats perfection every time",
-                  icon: <GiCard10Diamonds className="text-yellow-700" />,
-                },
-                {
-                  step: "We think principles have Firs",
-                  desc: "We experiment, learn, simplify the complex, and build from the ground up.",
-                  icon: <VscCompassActive className="text-green-500" />,
-                },
-                {
-                  step: "Humility Drives Us Forward",
-                  desc: "We keep our egos small, own our mistakes, and always choose to do what’s right—with a smile",
-                  icon: <TiArrowBackOutline className="text-orange-600" />,
-                },
-                {
-                  step: "Ideas Over Hierarchy",
-                  desc: "We hire people smarter than us because great ideas, not titles, drive us forward",
-                  icon: <FcIdea className="text-blue-600" />,
-                },
-                {
-                  step: "Work Hard, Play Hard",
-                  desc: "We know how to have fun and take our leisure just as seriously!",
-                  icon: <IoAppsSharp className="text-pink-500" />,
-                },
-              ].map((item, index) => (
-                <motion.div
-                  key={index}
-                  className="p-6 border rounded-lg shadow-lg bg-gray-50 hover:bg-white transition-all duration-300 cursor-pointer"
-                  whileHover={{
-                    scale: 1.01,
-                    rotateY: 5,
-                    boxShadow: "0px 15px 25px rgba(0, 0, 0, 0.2)",
-                  }}
-                  data-aos="flip-left"
-                  data-aos-delay={`${index * 100}`}
-                  onClick={() => NavigateToFirstPage("/homeinterior/bhk")}
-                >
-                  <div className="text-3xl lg:text-5xl mb-4">{item.icon}</div>
-                  <h4 className="text-lg font-semibold">{item.step}</h4>
-                  <p className="text-xl text-gray-600">{item.desc}</p>
-                </motion.div>
-              ))}
-            </div>
-          </aside>
-
-          {/* Spacer Teams Section */}
+          {/* Meet our Team Section */}
           <aside className="top-spacing bottom-spacing">
             <motion.h2
               className="lg:text-4xl text-xl font-semibold text-[#104438] text-center"
@@ -148,24 +69,12 @@ const CarrierPage = () => {
               Meet our Team
             </motion.h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 top-spacing">
-              {[
-                { title: "Founder", desc: "Anees Antapur", image: AneesSir },
-                { title: "HR Manager", desc: "Pranav G", image: PranavSir },
-                {
-                  title: "Technical Manager",
-                  desc: "Ritesh Thakur",
-                  image: RiteshSir,
-                },
-                {
-                  title: "Senior Brand Strategist",
-                  desc: "Yogesh S",
-                  image: YogeshSir,
-                },
-                {
-                  title: "Digital Marketing Manager",
-                  desc: "Shadan Shaikh",
-                  image: ShadanSir,
-                },
+              {[ 
+                { title: "Founder", desc: "Anees Antapur", image: "/teams/AneesAntapur.jpg" }, // Corrected path
+                { title: "HR Manager", desc: "Pranav G", image: "/teams/PranavG.jpg" }, // Corrected path
+                { title: "Technical Manager", desc: "Ritesh Thakur", image: "/teams/RiteshT.jpg" }, // Corrected path
+                { title: "Senior Brand Strategist", desc: "Yogesh S", image: "/teams/YogeshS.jpg" }, // Corrected path
+                { title: "Digital Marketing Manager", desc: "Shadan Shaikh", image: "/teams/ShadanS.jpg" }, // Corrected path
               ].map((team, index) => (
                 <motion.div
                   key={index}
@@ -212,7 +121,7 @@ const CarrierPage = () => {
               Benefits And Perks
             </motion.h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 top-spacing">
-              {[
+              {[ 
                 {
                   title: "Flexible Working Hours",
                   desc: "Enjoy a work-life balance with flexible schedules.",
@@ -221,9 +130,7 @@ const CarrierPage = () => {
                 {
                   title: "Health and Wellness",
                   desc: "Comprehensive health insurance programs.",
-                  icon: (
-                    <MdOutlineHealthAndSafety className="text-yellow-700" />
-                  ),
+                  icon: <MdOutlineHealthAndSafety className="text-yellow-700" />,
                 },
                 {
                   title: "Learning Opportunities",
@@ -267,7 +174,7 @@ const CarrierPage = () => {
                   <h4 className="font-bold text-lg">{perk.title}</h4>
                   <p className="text-gray-600 text-xl">{perk.desc}</p>
                 </motion.div>
-              ))}{" "}
+              ))}
             </div>
           </aside>
         </section>
