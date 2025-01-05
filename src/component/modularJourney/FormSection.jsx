@@ -11,7 +11,7 @@ function FormSection(){
         transition={{ duration: 1.5 }}
         className="relative bg-cover bg-center"
         style={{
-          backgroundImage: `url('./Images/Blog_Banner_1247x500_Sample.jpg')`,
+          backgroundImage: `url('./images/Blog_Banner_1247x500_Sample.jpg')`,
           backgroundSize:"cover",
           backgroundRepeat:"no-repeat",
           height: "500px",

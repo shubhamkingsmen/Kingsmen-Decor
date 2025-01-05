@@ -30,7 +30,7 @@ function StraightPage2() {
   };
 
   const layouts = [
-    { id: "straight-shaped", name: "Straight-shaped", img: "/Images/staright.jpg" },
+    { id: "straight-shaped", name: "Straight-shaped", img: "/images/staright.jpg" },
   ];
 
   const isNextButtonEnabled = !!cornerSize;

@@ -40,7 +40,7 @@ const PackageSelector = () => {
         "Personalised Design: Choose from a variety of layouts and storage solutions for a truly customised wardrobe",
       tag3:
         "Unmatched Quality: Enjoy long-lasting durability and timeless elegance with our premium finishes.",
-      image: "/Images/1bhk.jpg", // Fixed path to images in public folder
+      image: "/images/1bhk.jpg", // Fixed path to images in public folder
     },
     {
       id: "Elite",
@@ -53,7 +53,7 @@ const PackageSelector = () => {
         "Better Functionality: Customise your layout according to your requirement with versatile shelving and hanging arrangements.",
       tag3:
         "Premium Feel: Select a package that enhances your wardrobe's aesthetics as well as functionality.",
-      image: "/Images/2bhk.jpg", // Fixed path to images in public folder
+      image: "/images/2bhk.jpg", // Fixed path to images in public folder
     },
     {
       id: "Kingsmen",
@@ -66,7 +66,7 @@ const PackageSelector = () => {
         "Bespoke Service: Customised every detail right from design to accessories so that it is unique as well as tailored",
       tag3:
         "Unparalleled Craftsmanship: Choose a package that promises quality and service in excellence.",
-      image: "/Images/3bhk.png", // Fixed path to images in public folder
+      image: "/images/3bhk.png", // Fixed path to images in public folder
     },
   ];
 

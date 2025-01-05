@@ -5,9 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // Correct path for public images
-const image1bhk = '/Images/1bhk.jpg';
-const image2bhk = '/Images/2bhk.jpg';
-const image3bhk = '/Images/3bhk.png';
+const image1bhk = '/images/1bhk.jpg';
+const image2bhk = '/images/2bhk.jpg';
+const image3bhk = '/images/3bhk.png';
 
 // Animation Variants
 const containerVariants = {

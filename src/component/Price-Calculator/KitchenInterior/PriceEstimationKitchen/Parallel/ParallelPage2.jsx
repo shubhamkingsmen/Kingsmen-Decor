@@ -33,7 +33,7 @@ function ParallelshapedPage2() {
   };
 
   const layouts = [
-    { id: "parallel-shaped", name: "Parallel-shaped", img: "/Images/parallel.jpg" },
+    { id: "parallel-shaped", name: "Parallel-shaped", img: "/images/parallel.jpg" },
   ];
 
   const isNextButtonEnabled = cornerSize && straightSize;
