@@ -2,14 +2,11 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { TextField, MenuItem } from "@mui/material";
-import Lshape from "public/images/l-shape.jpg";
 
 function LshapedPage2() {
-  const [selectedLayout, setSelectedLayout] = useState("");
   const [cornerSize, setCornerSize] = useState("");
   const [straightSize, setStraightSize] = useState("");
-
-  let NavigateToLshapePage3 = useNavigate();
+  const navigate = useNavigate();
 
   const containerVariants = {
     hidden: { opacity: 0, scale: 0.9 },
@@ -28,12 +25,9 @@ function LshapedPage2() {
     visible: { opacity: 1, y: 0 },
   };
 
-  const formFieldVariants = {
-    hidden: { opacity: 0, x: -50 },
-    visible: { opacity: 1, x: 0 },
-  };
-
-  const layouts = [{ id: "l-shaped", name: "L-shaped", img: Lshape }];
+  const layouts = [
+    { id: "l-shaped", name: "L-shaped", img: "/images/l-shape.jpg" },
+  ];
   const isNextButtonEnabled = cornerSize && straightSize;
 
   return (
@@ -69,12 +63,7 @@ function LshapedPage2() {
 
         {/* Form Fields */}
         <div className="flex flex-col mt-6">
-          <motion.div
-            variants={formFieldVariants}
-            className="mb-4"
-            initial="hidden"
-            animate="visible"
-          >
+          <motion.div variants={itemVariants} className="mb-4">
             <TextField
               fullWidth
               select
@@ -82,7 +71,6 @@ function LshapedPage2() {
               variant="outlined"
               value={cornerSize}
               onChange={(e) => setCornerSize(e.target.value)}
-              className="mb-4"
             >
               {[...Array(10).keys()].map((value) => (
                 <MenuItem key={value + 3} value={value + 3}>
@@ -91,12 +79,7 @@ function LshapedPage2() {
               ))}
             </TextField>
           </motion.div>
-          <motion.div
-            variants={formFieldVariants}
-            className="mb-4"
-            initial="hidden"
-            animate="visible"
-          >
+          <motion.div variants={itemVariants} className="mb-4">
             <TextField
               fullWidth
               select
@@ -115,35 +98,23 @@ function LshapedPage2() {
         </div>
 
         {/* Navigation Buttons */}
-        <motion.div
-          variants={containerVariants}
-          className="flex justify-between items-center mt-6"
-        >
+        <motion.div variants={containerVariants} className="flex justify-between items-center mt-6">
           <motion.button
             variants={itemVariants}
             whileHover={{ scale: 1.1 }}
             className="text-red-600 font-semibold"
-            onClick={() => {
-              NavigateToLshapePage3("/kitcheninterior/layout");
-            }}
+            onClick={() => navigate("/kitcheninterior/layout")}
           >
             Back
           </motion.button>
           <motion.button
             variants={itemVariants}
-            whileHover={{
-              scale: 1.08,
-              boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
-            }}
+            whileHover={{ scale: 1.08, boxShadow: "0 4px 10px rgba(0,0,0,0.2)" }}
             disabled={!isNextButtonEnabled}
             className={`px-6 py-2 rounded-lg font-semibold text-white transition ${
-              isNextButtonEnabled
-                ? "bg-green-500 hover:bg-yellow-700"
-                : "bg-gray-300 cursor-not-allowed"
+              isNextButtonEnabled ? "bg-green-500 hover:bg-yellow-700" : "bg-gray-300 cursor-not-allowed"
             }`}
-            onClick={() => {
-              NavigateToLshapePage3("/kitcheninterior/layout/lshape-size/package");
-            }}
+            onClick={() => navigate("/kitcheninterior/layout/lshape-size/package")}
           >
             Next
           </motion.button>
