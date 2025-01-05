@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { TextField, MenuItem } from "@mui/material";
-import Lshape from "./Images/l-shape.jpg";
+import Lshape from "public/images/l-shape.jpg";
 
 function LshapedPage2() {
   const [selectedLayout, setSelectedLayout] = useState("");
