@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import Lshape from "../../../../../public/Images/l-shape.jpg";
-import Ushape from "../../../../../public/Images/u-shape-modular-kitchen.jpg";
-import Straight from "../../../../../public/Images/staright.jpg";
-import Parallel from "../../../../../public/Images/parallel.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { clipping } from "three/src/nodes/accessors/ClippingNode.js";
 
 const containerVariants = {
   hidden: { opacity: 0, scale: 0.9 },
@@ -28,23 +23,42 @@ const itemVariants = {
 
 const KitchenLayoutSelector = () => {
   const [selectedLayout, setSelectedLayout] = useState("");
-
-  let NavigateToOtherPage=useNavigate();
+  const navigate = useNavigate();
 
   const layouts = [
-    { id: "l-shaped", name: "The L-Shaped Kitchen", img: Lshape,title:"Effortless Corners",desc:"Designed to make the most out of corner spaces, it offers an open and efficient design that allows for easycooking and socialising without a hitch." },
-    { id: "straight", name: "The Straight Kitchen", img: Straight,title:"Sleek Simplicity",desc:"A minimalist design, ideal for small spaces, streamlined functionality, and modern aesthetic" },
-    { id: "u-shaped", name: "The U-Shaped Kitchen", img: Ushape,title:"A Chef's Haven",desc:"Featuring abundant storage and counter space, this layout creates a dedicated work triangle for a chef's paradise" },
-    { id: "parallel", name: "The Parallel Kitchen", img: Parallel,title:"Double Efficiency",desc:"Double the efficiency with two countertops, ideal for multitasking and creating a well-organised workflow." },
+    {
+      id: "l-shaped",
+      name: "The L-Shaped Kitchen",
+      img: "/Images/l-shape.jpg",
+      title: "Effortless Corners",
+      desc: "Designed to make the most out of corner spaces, it offers an open and efficient design that allows for easy cooking and socializing without a hitch.",
+    },
+    {
+      id: "straight",
+      name: "The Straight Kitchen",
+      img: "/Images/staright.jpg",
+      title: "Sleek Simplicity",
+      desc: "A minimalist design, ideal for small spaces, streamlined functionality, and modern aesthetic.",
+    },
+    {
+      id: "u-shaped",
+      name: "The U-Shaped Kitchen",
+      img: "/Images/u-shape-modular-kitchen.jpg",
+      title: "A Chef's Haven",
+      desc: "Featuring abundant storage and counter space, this layout creates a dedicated work triangle for a chef's paradise.",
+    },
+    {
+      id: "parallel",
+      name: "The Parallel Kitchen",
+      img: "/Images/parallel.jpg",
+      title: "Double Efficiency",
+      desc: "Double the efficiency with two countertops, ideal for multitasking and creating a well-organized workflow.",
+    },
   ];
 
-  // Initialize AOS on component mount
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
-
-console.log(selectedLayout);
- 
 
   return (
     <div className="p-6 md:p-16 bg-gradient-to-br from-gray-100 to-gray-300 min-h-screen flex flex-col items-center">
@@ -87,8 +101,7 @@ console.log(selectedLayout);
                   : "border-gray-200 hover:shadow-md hover:scale-105"
               }`}
               data-aos="fade-up"
-              data-aos-delay={index * 200} // Adding delay based on index
-
+              data-aos-delay={index * 200}
             >
               <img
                 src={layout.img}
@@ -97,9 +110,9 @@ console.log(selectedLayout);
               />
               <span className="text-gray-800 font-semibold">{layout.name}</span>
               <div className="p-4 text-left">
-  <span className="block text-gray-900 font-bold">{layout.title}</span>
-  <span className="block text-gray-800 font-semibold">{layout.desc}</span>
-</div>
+                <span className="block text-gray-900 font-bold">{layout.title}</span>
+                <span className="block text-gray-800 font-semibold">{layout.desc}</span>
+              </div>
             </motion.div>
           ))}
         </motion.div>
@@ -113,11 +126,7 @@ console.log(selectedLayout);
             className="text-red-600 font-semibold"
             data-aos="fade-up"
             data-aos-delay="500"
-
-            onClick={()=>{
-             
-                NavigateToOtherPage("/kitcheninterior")
-              }}
+            onClick={() => navigate("/kitcheninterior")}
           >
             Back
           </motion.button>
@@ -135,19 +144,15 @@ console.log(selectedLayout);
             }`}
             data-aos="fade-up"
             data-aos-delay="600"
-
-            onClick={()=>{
-              if(selectedLayout==="l-shaped"){
-                NavigateToOtherPage("/kitcheninterior/layout/lshape-size")
-              }
-              if(selectedLayout==="u-shaped"){
-                NavigateToOtherPage("/kitcheninterior/layout/ushape-size")
-              }
-              if(selectedLayout==="straight"){
-                NavigateToOtherPage("/kitcheninterior/layout/straight-size")
-              }
-              if(selectedLayout==="parallel"){
-                NavigateToOtherPage("/kitcheninterior/layout/parallel-size")
+            onClick={() => {
+              if (selectedLayout === "l-shaped") {
+                navigate("/kitcheninterior/layout/lshape-size");
+              } else if (selectedLayout === "u-shaped") {
+                navigate("/kitcheninterior/layout/ushape-size");
+              } else if (selectedLayout === "straight") {
+                navigate("/kitcheninterior/layout/straight-size");
+              } else if (selectedLayout === "parallel") {
+                navigate("/kitcheninterior/layout/parallel-size");
               }
             }}
           >
