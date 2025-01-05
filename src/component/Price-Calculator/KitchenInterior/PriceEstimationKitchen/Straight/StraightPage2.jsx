@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { TextField, MenuItem } from "@mui/material";
-import Straightshape from "../../../../../../public/Images/staright.jpg";
 
 function StraightPage2() {
   const [cornerSize, setCornerSize] = useState("");
-
-  let NavigateToStraightPackage=useNavigate()
+  const navigate = useNavigate();
 
   const containerVariants = {
     hidden: { opacity: 0, scale: 0.9 },
@@ -32,10 +30,9 @@ function StraightPage2() {
   };
 
   const layouts = [
-    { id: "straight-shaped", name: "Straight-shaped", img: Straightshape },
+    { id: "straight-shaped", name: "Straight-shaped", img: "/Images/staright.jpg" },
   ];
 
-  // The "Next" button is enabled if a size is selected
   const isNextButtonEnabled = !!cornerSize;
 
   return (
@@ -84,6 +81,7 @@ function StraightPage2() {
               variant="outlined"
               value={cornerSize}
               onChange={(e) => setCornerSize(e.target.value)}
+              aria-label="Select straight size"
             >
               {[...Array(10).keys()].map((value) => (
                 <MenuItem key={value + 3} value={value + 3}>
@@ -103,10 +101,8 @@ function StraightPage2() {
             variants={itemVariants}
             whileHover={{ scale: 1.1 }}
             className="text-red-600 font-semibold"
-
-            onClick={()=>{
-              NavigateToStraightPackage("/kitcheninterior/layout")
-            }}
+            onClick={() => navigate("/kitcheninterior/layout")}
+            aria-label="Go back"
           >
             Back
           </motion.button>
@@ -123,10 +119,8 @@ function StraightPage2() {
                 ? "bg-green-500 hover:bg-yellow-700"
                 : "bg-gray-300 cursor-not-allowed"
             }`}
-
-            onClick={()=>{
-              NavigateToStraightPackage("/kitcheninterior/layout/straight-size/package")
-            }}
+            onClick={() => navigate("/kitcheninterior/layout/straight-size/package")}
+            aria-label="Proceed to package selection"
           >
             Next
           </motion.button>
