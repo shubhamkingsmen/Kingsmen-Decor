@@ -11,7 +11,7 @@ const GridLuxury = () => {
   };
   const posts = [
     {
-      image: "./home/bathroom6.jpg",
+      image: "/public/home/bathroom6.jpg",
       tag: "INTERIOR",
       title: "Spa-Inspired Bathrooms: Designer Fixtures and Premium Finishes.",
       date: "March 19, 2020",
@@ -20,7 +20,7 @@ const GridLuxury = () => {
         "A spa-inspired bathroom is more than merely an aesthetic appeal; it's an immersive...",
     },
     {
-      image: "./home/sofa7.jpg",
+      image: "/public/home/sofa7.jpg",
       tag: "INTERIOR",
       title: "Bespoke furniture: unique designs, perfect handcrafts",
       date: "March 19, 2020",
@@ -29,7 +29,7 @@ const GridLuxury = () => {
         "Bespoke furniture epitomizes the definition of personal luxury, with unique designs available that ...",
     },
     {
-      image: "./home/bedroom13.jpg",
+      image: "/public/home/bedroom13.jpg",
       tag: "INTERIOR",
       title: "Lavish Bedrooms: Luxe Fabrics and Tailor-made Furniture",
       date: "March 19, 2020",
@@ -38,7 +38,7 @@ const GridLuxury = () => {
         "A lavish bedroom is a haven of luxury and comfort, carefully designed to bring one the truly...",
     },
     {
-      image: "./home/outdoor2.jpg",
+      image: "/public/home/outdoor2.jpg",
       tag: "OUTDOOR",
       title: "Extravagant Outdoor Areas: Lavish Seating and Grand Landscaping.",
       date: "March 19, 2020",

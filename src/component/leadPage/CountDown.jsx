@@ -27,7 +27,7 @@ const CountDown = () => {
 
   return (
     <section
-      className="bg-[url('/feature-bg.png')] bg-fixed bg-cover common-transition bottom-spacing"
+      className="bg-[url('/public/feature-bg.png')] bg-fixed bg-cover common-transition bottom-spacing"
       id="about"
     >
       {/* Heading Section */}

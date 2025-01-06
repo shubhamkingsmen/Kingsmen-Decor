@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import designer from "./Video/meetDesigner.mp4";
-import livespace from "./Video/liveSpace (2).mp4";
-import execution from "./Video/execution.mp4";
-import installation from "./Video/installation.mov";
-import moveIn from "./Video/move-in.mp4";
+import designer from "../../../public/Video/meetDesigner.mp4";
+import livespace from "../../../public/Video/liveSpace (2).mp4";
+import execution from "../../../public/Video/execution.mp4";
+import installation from "../../../public/Video/installation.mov";
+import moveIn from "../../../public/Video/move-in.mp4";
 
 import QuotePopUp from "./QuotePopUp";
 const HomeProcess = () => {

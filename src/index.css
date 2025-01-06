@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 html {
   scroll-behavior: smooth;
@@ -444,7 +444,7 @@ img {
 }
 
 .icon-bg-1 {
-  background-image: url("images/bg-iconbox1.jpg"); /* Replace with the correct path */
+  background-image: url("images/"); /* Replace with the correct path */
 }
 
 .icon-bg-2 {

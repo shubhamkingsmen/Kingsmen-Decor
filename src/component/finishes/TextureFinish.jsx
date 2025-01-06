@@ -7,43 +7,43 @@ const textures = [
     title: "Plaster and Stucco",
     description:
       "Timeless beauty with silky smooth or rustic worn look, perfect for traditional and Mediterranean styles.",
-    imageUrl: "./finishes/tf1.jpg",
+    imageUrl: "/finishes/tf1.jpg",
   },
   {
     title: "Textured Wall Papers",
     description:
       "Rich textures in embossed, linen, or silk finishes, adding color and patterns with subtle sophistication.",
-    imageUrl: "./finishes/tf2.jpg",
+    imageUrl: "/finishes/tf2.jpg",
   },
   {
     title: "Venetian Plaster",
     description:
       "Highly polished, marble-like finish offering luminous surface with depth of color and texture.",
-    imageUrl: "./finishes/tf3.jpg",
+    imageUrl: "/finishes/tf3.jpg",
   },
   {
     title: "Wood Textures",
     description:
       "Natural beauty adding warmth and depth, from distressed-reclaimed to smoothly finished surfaces.",
-    imageUrl: "./finishes/tf4.jpg",
+    imageUrl: "/finishes/tf4.jpg",
   },
   {
     title: "Concrete Finishes",
     description:
       "Strong, modern feel with industrial yet refined appeal, suitable for countertops, feature walls, or floors.",
-    imageUrl: "./finishes/tf5.jpg",
+    imageUrl: "/finishes/tf5.jpg",
   },
   {
     title: "Fabric-Inspired Textures",
     description:
       "Wall treatments resembling textile looks like linen, velvet, or silk, adding softness and warmth.",
-    imageUrl: "./finishes/tf6.jpg",
+    imageUrl: "/finishes/tf6.jpg",
   },
   {
     title: "Metallic Textures",
     description:
       "Rich accents like hammered gold and leaf, catching light in different ways for added elegance.",
-    imageUrl: "./finishes/tf7.jpg",
+    imageUrl: "/finishes/tf7.jpg",
   },
 ];
 

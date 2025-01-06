@@ -20,7 +20,7 @@ const ListingPremium = () => {
           <div className="col-span-5">
             <div className="mb-10 border hover:border-neutral-500 p-10">
               <img
-                src="./home/sofa4.jpg"
+                src="/home/sofa4.jpg"
                 alt="Post Thumbnail"
                 className="w-full h-[30rem] rounded-md"
               />
@@ -127,7 +127,7 @@ const ListingPremium = () => {
 
             <div className="mb-10 border hover:border-neutral-500 p-10">
               <img
-                src="./home/bedroom3.jpg"
+                src="/home/bedroom3.jpg"
                 loading="lazy"
                 alt="Post Thumbnail"
                 className="w-full h-[30rem] rounded-md"
@@ -171,7 +171,7 @@ const ListingPremium = () => {
           {/* Right Sidebar */}
           <div className="col-span-2">
             <div>
-              <img src="./Cards/Elite.jpg" loading="lazy" alt="" />
+              <img src="/Cards/Elite.jpg" loading="lazy" alt="" />
             </div>
           </div>
         </article>

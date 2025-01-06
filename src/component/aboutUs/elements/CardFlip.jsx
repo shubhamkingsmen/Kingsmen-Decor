@@ -9,7 +9,7 @@ const CardFlip = () => {
       <div className="container">
         <div className="card">
           <div className="img-box">
-            <img src="./images/support1.jpg" />
+            <img src="/images/support1.jpg" />
           </div>
           <div className="content text-[#104438] !text-base ">
             <h2>Our Mission</h2>
@@ -30,7 +30,7 @@ const CardFlip = () => {
 
         <div className="card">
           <div className="img-box">
-            <img src="./images/support2.jpg" />
+            <img src="/images/support2.jpg" />
           </div>
           <div className="content text-[#104438] !text-base ">
             <h2>Our Vision</h2>
@@ -50,7 +50,7 @@ const CardFlip = () => {
         </div>
         <div className="card">
           <div className="img-box">
-            <img src="./images/support3.jpg" />
+            <img src="/images/support3.jpg" />
           </div>
           <div className="content text-[#104438] !text-base">
             <h2>Our Values</h2>

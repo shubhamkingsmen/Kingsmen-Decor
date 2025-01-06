@@ -10,35 +10,35 @@ const interiorTypes = [
       "Find yourself in perfect harmony of aesthetics and practicality.",
     description:
       "Our 3 BHK designs capture the essence of smart luxury, with every layout thoughtfully designed to maximize space and light. For modern families, are an epitome of elegance and seamless transitions with perfectly Luxury.",
-    image: "./services/3bhk.jpg",
+    image: "/public/services/3bhk.jpg",
   },
   {
     title: "3.5 BHK: An Ode to Luxury",
     subtitle: "For more space where it matters the most.",
     description:
       "The 3.5 BHK concept offers an additional half-room that can transform into your personal sanctuary, be it a study, home office, or creative studio. These homes merge contemporary design with practical luxury.",
-    image: "./services/3.5bhk.jpg",
+    image: "/public/services/3.5bhk.jpg",
   },
   {
     title: "4 BHK: Grand Living, Amplified",
     subtitle: "Space that speaks of sophistication.",
     description:
       "Step into a world of luxury with our 4 BHK homes, designed for the larger family or those who simply crave expansive living.",
-    image: "./services/4bhk.jpg",
+    image: "/public/services/4bhk.jpg",
   },
   {
     title: "4.5 BHK: Aspirations",
     subtitle: "Tailor-made blend of space and style.",
     description:
       "Our 4.5 BHK homes offer unparalleled flexibility and luxury, with an additional half-room designed to adapt to your lifestyle, this extra space redefines personalized luxury in a modern home.",
-    image: "./services/4.5bhk.jpg",
+    image: "/public/services/4.5bhk.jpg",
   },
   {
     title: "5 BHK: The Pinnacle of Luxury",
     subtitle: "Where every inch exudes grandeur.",
     description:
       "For those who prefer the ultimate luxury living lifestyle, our 5 BHK homes are the epitomes of magnificence with expansive layouts, grand interiors, and all this with an aura of sophistication.",
-    image: "./services/5bhk.jpg",
+    image: "/public/services/5bhk.jpg",
   },
 ];
 

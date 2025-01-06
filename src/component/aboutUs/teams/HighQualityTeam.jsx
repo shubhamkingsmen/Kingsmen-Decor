@@ -18,27 +18,27 @@ const HighQualityTeam = () => {
   ];
   const teamMembers = [
     {
-      img: "./teams/PranavG.jpg",
+      img: "/teams/PranavG.jpg",
       name: "Pranav G",
       designation: "HR Manager",
     },
     {
-      img: "./user.png",
+      img: "/user.png",
       name: "Ashish",
       designation: "Business Head",
     },
     {
-      img: "./teams/RiteshT.jpg",
+      img: "/teams/RiteshT.jpg",
       name: "Ritesh Thakur",
       designation: "Technical Manager",
     },
     {
-      img: "./teams/ShadanS.jpg",
+      img: "/teams/ShadanS.jpg",
       name: "Shadan Shaikh",
       designation: "Digital Marketing Manager",
     },
     {
-      img: "./teams/YogeshS.jpg",
+      img: "/teams/YogeshS.jpg",
       name: "Yogesh S",
       designation: "Senior Brand Strategist",
     },

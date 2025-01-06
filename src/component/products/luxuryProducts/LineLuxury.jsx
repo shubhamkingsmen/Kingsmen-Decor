@@ -19,7 +19,7 @@ const LineLuxury = () => {
           <div className="mb-10 border hover:border-neutral-500 p-10">
             <img
             loading="lazy"
-              src="./home/bathroom6.jpg"
+              src="/home/bathroom6.jpg"
               alt="Post Thumbnail"
               className="w-full h-[25rem] rounded-md"
             />
@@ -96,7 +96,7 @@ const LineLuxury = () => {
         </div>
         <div className="col-span-2">
             {/* Profile Section */}
-           <img src="./Cards/kingsmenSpecial.jpg" loading="lazy" alt="" />
+           <img src="/Cards/kingsmenSpecial.jpg" loading="lazy" alt="" />
           </div>
       
       </article>

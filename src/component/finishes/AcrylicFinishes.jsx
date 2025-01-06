@@ -41,7 +41,7 @@ const AcrylicFinishes = () => {
           <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8">
             <img
             loading="lazy"
-              src="./finishes/AcrylicFinish.jpg"
+              src="/finishes/AcrylicFinish.jpg"
               className="rounded-lg shadow-lg w-full h-[20rem] object-cover"
               alt=""
             />
@@ -75,7 +75,7 @@ const AcrylicFinishes = () => {
         >
           <div className="md:w-1/2 mb-6 md:mb-0 md:pl-8">
             <img
-              src="./finishes/MatteAcrylic.jpg"
+              src="/finishes/MatteAcrylic.jpg"
               className="rounded-lg shadow-lg w-full h-[20rem] object-cover"
               alt="MatteAcrylic"
             />

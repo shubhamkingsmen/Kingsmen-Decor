@@ -11,7 +11,7 @@ const Process = () => {
           title=""
           subtitle=""
           buttonText=""
-          backgroundImage="./banner/OurProcess.jpg"
+          backgroundImage="/banner/OurProcess.jpg"
           onButtonClick={() => alert("Button Clicked!")}
         />
       </div>
@@ -20,7 +20,7 @@ const Process = () => {
           title=""
           subtitle=""
           buttonText=""
-          backgroundImage="./banner/OurProceess_Mobile_Version_Banner.jpg"
+          backgroundImage="/banner/OurProceess_Mobile_Version_Banner.jpg"
           onButtonClick={() => alert("Button Clicked!")}
         />
       </div>

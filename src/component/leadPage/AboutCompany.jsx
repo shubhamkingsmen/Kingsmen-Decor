@@ -27,7 +27,7 @@ const AboutCompany = () => {
         >
           <div className="bg-gray-200 h-30 w-[0.15rem] lg:flex hidden"></div>
           <div className="about-img-1 flex items-center justify-center">
-            <img src="./image2-home1.png" className="" alt="about"  loading="lazy"/>
+            <img src="/image2-home1.png" className="" alt="about"  loading="lazy"/>
           </div>
         </motion.div>
 

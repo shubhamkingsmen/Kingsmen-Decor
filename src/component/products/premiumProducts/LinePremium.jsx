@@ -18,7 +18,7 @@ const LinePremium = () => {
         <div className="col-span-5">
           <div className="mb-10 border hover:border-neutral-500 p-10">
             <img
-              src="./home/sofa4.jpg"
+              src="/home/sofa4.jpg"
               loading="lazy"
               alt="Post Thumbnail"
               className="w-full h-[30rem] rounded-md"
@@ -95,7 +95,7 @@ const LinePremium = () => {
         <div className="col-span-2">
           {/* Profile Section */}
         <div>
-          <img src="./Cards/Elite.jpg" loading="lazy" alt="" />
+          <img src="/Cards/Elite.jpg" loading="lazy" alt="" />
         </div>
 
          

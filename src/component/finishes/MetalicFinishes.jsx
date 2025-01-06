@@ -13,7 +13,7 @@ const LuxuryMetallicFinishes = () => {
         >
           <img
           loading="lazy"
-            src="./finishes/MetallicFinish.jpg"
+            src="/finishes/MetallicFinish.jpg"
             alt="Luxury Metallic Finish"
             className="rounded-lg shadow-lg w-full h-[20rem] object-cover"
           />

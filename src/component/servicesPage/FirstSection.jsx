@@ -68,13 +68,13 @@ export default function FirstSection() {
       <ServiceSection
         title="Apartment Design"
         description="Where Sophistication Meets Space Optimization. Our apartment design service addresses the conversion of a very small living area into luxury havens that are fully functional. This is an endeavour focused on maximizing every inch available through modern aesthetics infused into layouts to ensure your homes exemplify comfort and style, be it in one bed-room retreat or an extensive penthouse, your personalities speak through our designs with regard to today's trends."
-        imageSrc="./services/appartmentService.jpg"
+        imagesrc="/services/appartmentService.jpg"
       />
 
       <ServiceSection
         title="Villa Design"
         description="Designing Majesty in Every Villa. With a passion for creating unique villa designs, we breathe life into your dream house. From lush interiors to harmonious layouts, we tailor each detail to reflect your lifestyle and taste. Whether timelessness is in the veins of grandeur or sleek minimalism, our luxury villa designs blend luxury with functionality to create an amazing sanctuary that complements surroundings."
-        imageSrc="./services/appartmentVilla.jpg"
+        imagesrc="/services/appartmentVilla.jpg"
       />
 
       <div className="bottom-spacing">
@@ -90,31 +90,31 @@ export default function FirstSection() {
           <CommercialDesignItem
             title="Office Design"
             description="Inspiring Productivity, Reflecting Professionalism. Our office design solutions are tailored to create workspaces that inspire innovation, boost productivity, and reflect your company's ethos."
-            imageSrc="./services/office.jpg"
+            imagesrc="/services/office.jpg"
             index={0}
           />
           <CommercialDesignItem
             title="Hotels"
             description="Weaving warm ambiances with richness and unparalleled guest comfort."
-            imageSrc="./services/hotels.jpg"
+            imagesrc="/services/hotels.jpg"
             index={1}
           />
           <CommercialDesignItem
             title="Jewellery Showrooms"
             description="Designs that showcase your exquisite collections in settings as precious as the jewels themselves."
-            imageSrc="./services/LuxuryJewelry.jpg"
+            imagesrc="/services/LuxuryJewelry.jpg"
             index={2}
           />
           <CommercialDesignItem
             title="Hospitals"
             description="Functional, calming interiors designed to enhance patient care and staff efficiency."
-            imageSrc="./services/hospital.jpg"
+            imagesrc="/services/hospital.jpg"
             index={3}
           />
           <CommercialDesignItem
             title="Malls"
             description="Dynamic and visually engaging spaces that create a seamless shopping experience for visitors."
-            imageSrc="./services/mall.jpg"
+            imagesrc="/services/mall.jpg"
             index={4}
           />
         </div>

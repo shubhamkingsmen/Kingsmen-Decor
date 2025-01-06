@@ -27,7 +27,7 @@ const AdvantageDesign = () => {
   return (
     <section
       className="bg-cover bg-center bg-no-repeat bottom-spacing"
-      style={{ backgroundImage: "url('./process/bg1-process.png')" }}
+      style={{ backgroundImage: "url('/process/bg1-process.png')" }}
     >
       <div className="main-container top-spacing bottom-spacing">
         <div className="flex flex-col gap-2 items-center justify-center bottom-spacing">
@@ -72,7 +72,7 @@ const AdvantageDesign = () => {
           <div className="flex justify-center items-center">
             <img
             loading="lazy"
-              src="./process/image1-process.png"
+              src="/process/image1-process.png"
               alt="Process Image"
               className="w-auto h-full"
             />

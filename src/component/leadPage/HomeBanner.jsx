@@ -13,21 +13,21 @@ const HomeBanner = () => {
 
   const slides = [
     {
-      image: "./check.jpg",
+      image: "/check.jpg",
       title: "DESIGN",
       heading: "Transforming Spaces with Elegance ",
       subheading:
         "We take pride in crafting home decors that blend timeless elegance with modern aesthetics, making every corner uniquely yours. ",
     },
     {
-      image: "./homeBannner2.jpg",
+      image: "/homeBannner2.jpg",
       title: "EXCELLENCE",
       heading: "Elevating Your Living Style ",
       subheading:
         "Our expertise lies in designing decor that exudes sophistication while delivering contemporary charm to redefine your home's ambiance. ",
     },
     {
-      image: "./homeBanner3.jpg",
+      image: "/homeBanner3.jpg",
       title: "INTERIORS",
       heading: "Pioneers in Elegant Modernity ",
       subheading:

@@ -1,15 +1,14 @@
 import React from "react";
 import "tailwindcss/tailwind.css";
 import { motion } from "framer-motion";
+import image from "../../../public/Banners/Contact_Us_Banner.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 const DesignQuoteForm = () => {
   // Initialize AOS (this should ideally be done in a useEffect or componentDidMount)
   React.useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
-
   const containerVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -18,12 +17,10 @@ const DesignQuoteForm = () => {
       transition: { staggerChildren: 0.2 },
     },
   };
-
   const itemVariants = {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
-
   return (
     <motion.div
       initial="hidden"
@@ -37,7 +34,7 @@ const DesignQuoteForm = () => {
           {/* Background Image */}
           <div className="absolute inset-0">
             <motion.img
-              src="/Howitworks.jpg" // Updated the image path to relative
+              src="/Howitworks.jpg"
               loading="lazy"
               alt="Room Background"
               className="w-full h-full"
@@ -48,7 +45,6 @@ const DesignQuoteForm = () => {
             />
           </div>
         </div>
-
         {/* Right Section */}
         <div
           className="w-full md:w-1/2 text-white p-8"
@@ -111,6 +107,14 @@ const DesignQuoteForm = () => {
                 Send me updates on WhatsApp
               </label>
             </motion.div>
+            {/* <motion.div variants={itemVariants} data-aos="fade-up" data-aos-delay="700">
+              <label className="block text-sm font-medium">Property Name</label>
+              <input
+                type="text"
+                placeholder="Property Name"
+                className="w-full p-2 rounded bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-purple-700"
+              />
+            </motion.div> */}
             <motion.div
               variants={itemVariants}
               whileHover={{ scale: 1.1, boxShadow: "0 6px 15px rgba(0, 0, 0, 0.3)" }}
@@ -146,5 +150,24 @@ const DesignQuoteForm = () => {
     </motion.div>
   );
 };
-
 export default DesignQuoteForm;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

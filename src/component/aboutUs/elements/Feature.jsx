@@ -4,7 +4,7 @@ import { motion } from "framer-motion"; // Import motion from framer-motion
 const IconBox = () => {
   const cardData = [
     {
-      bgImage: "/images/bg-iconbox1.jpg",
+      bgImage: "/images/",
       icon: "/images/iconbox1.2.png",
       title: "Design & Planning",
       description:

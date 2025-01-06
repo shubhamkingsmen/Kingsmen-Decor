@@ -10,19 +10,19 @@ const BlogLayout = () => {
     {
       id: 1,
       title: "Luxury Bedroom Design: Essentials for Opulent Comfort",
-      image: "./interior/bedroom.jpg",
+      image: "/interior/bedroom.jpg",
       link: "/blogOne",
     },
     {
       id: 2,
       title: "Luxury Kitchen Designs That Inspire Culinary Creativity",
-      image: "./interior/kitchen.jpg",
+      image: "/interior/kitchen.jpg",
       link: "/blogTwo",
     },
     {
       id: 3,
       title: "Transform Your Balcony: Luxury Decor Ideas for an Elegant Outdoor Retreat",
-      image: "./interior/balcony.jpg",
+      image: "/interior/balcony.jpg",
       link: "/blogThree",
     },
   ];
@@ -35,7 +35,7 @@ const BlogLayout = () => {
           <div
             className=""
           >
-          <img src="./Cards/Blogcard.jpg" alt="" />
+          <img src="/Cards/Blogcard.jpg" alt="" />
           </div>
 
         </aside>

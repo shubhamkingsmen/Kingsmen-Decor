@@ -25,7 +25,7 @@ const AdvertisemnetBanner = () => {
       {!isMobile && (
         <div
           className="bg-cover bg-center bg-no-repeat bottom-spacing top-spacing"
-          style={{ backgroundImage: "url('./bannerDesktop.jpg')" }}
+          style={{ backgroundImage: "url('/public/bannerDesktop.jpg')" }}
         >
           <div className="py-10 flex items-center justify-center flex-col gap-8">
             <h1 className="text-3xl font-semibold">
@@ -47,7 +47,7 @@ const AdvertisemnetBanner = () => {
       {isMobile && (
         <div
           className="w-full h-full bg-cover bg-center bg-no-repeat bottom-spacing top-spacing py-12"
-          style={{ backgroundImage: "url('./phoneBanner.jpg')" }}
+          style={{ backgroundImage: "url('/public/phoneBanner.jpg')" }}
         >
           <div className=" flex items-center justify-center flex-col gap-8">
             <h1 className="text-xl font-semibold">

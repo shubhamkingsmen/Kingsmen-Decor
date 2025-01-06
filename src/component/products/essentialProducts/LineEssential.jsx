@@ -19,7 +19,7 @@ const LineEssential = () => {
           <div className="mb-10 border hover:border-neutral-500 p-10">
             <img
             loading="lazy"
-              src="./home/sofa6.jpg"
+              src="/home/sofa6.jpg"
               alt="Post Thumbnail"
               className="w-full h-[25rem] rounded-md"
             />
@@ -94,7 +94,7 @@ const LineEssential = () => {
           <div
             className=""
           >
-          <img src="./Cards/UltraPremium.jpg" loading="lazy" alt="" />
+          <img src="/Cards/UltraPremium.jpg" loading="lazy" alt="" />
           </div>
 
           {/* Categories Section */}
@@ -140,7 +140,7 @@ const LineEssential = () => {
             <ul className="space-y-5">
               <li className="flex flex-row gap-2 items-center">
                 <img
-                  src="./listImages/recent-post-1.jpg"
+                  src="/listImages/recent-post-1.jpg"
                   alt="image"
                   className="h-20 w-20"
                 />
@@ -153,7 +153,7 @@ const LineEssential = () => {
               </li>
               <li className="flex flex-row gap-2 items-center">
                 <img
-                  src="./listImages/recent-post-2.jpg"
+                  src="/listImages/recent-post-2.jpg"
                   alt="image"
                   className="h-20 w-20"
                 />
@@ -165,7 +165,7 @@ const LineEssential = () => {
                 </p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <img src="./home/" alt="image" className="h-20 w-20" />
+                <img src="/home/" alt="image" className="h-20 w-20" />
                 <p className="flex flex-col gap-1">
                   <a href="#" className="block text-gray-700 hover:text-black">
                     Plan Your Project with Your Software

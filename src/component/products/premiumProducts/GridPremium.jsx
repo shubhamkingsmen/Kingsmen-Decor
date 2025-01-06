@@ -5,7 +5,7 @@ import PopUpForm from "../../PopUpForm/PopUpForm";
 const GridPremium = () => {
   const posts = [
     {
-      image: "./home/sofa4.jpg",
+      image: "/public/home/sofa4.jpg",
       tag: "INTERIOR",
       title: "Customized furniture-luxury tailored for your space",
       date: "March 19, 2020",
@@ -14,7 +14,7 @@ const GridPremium = () => {
         "Customized furniture is a reflection of luxury personalized to create a home ...",
     },
     {
-      image: "./home/dinning4.jpg",
+      image: "/public/home/dinning4.jpg",
       tag: "INTERIOR",
       title: "Stylish Dining Designs: Modern Modular Solutions",
       date: "March 19, 2020",
@@ -23,7 +23,7 @@ const GridPremium = () => {
         "Stylish dining designs have become the epitome of modern living with the right blend of...",
     },
     {
-      image: "./home/bedroom3.jpg",
+      image: "/public/home/bedroom3.jpg",
       tag: "INTERIOR",
       title: "Elegant Bedrooms: Creating a Luxurious Retreat",
       date: "March 19, 2020",
@@ -32,7 +32,7 @@ const GridPremium = () => {
         "Elegant Bedroom, serene sanctuary-an abode of utmost style, to just unwind ...",
     },
     {
-      image: "./home/bathroom2.jpg",
+      image: "/public/home/bathroom2.jpg",
       tag: "INTERIOR",
       title: "Refined Bathrooms: Polished Design and Practicality",
       date: "March 19, 2020",

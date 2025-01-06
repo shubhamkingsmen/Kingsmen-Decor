@@ -132,7 +132,7 @@ const BlogFive = () => {
         title=""
         subtitle=""
         buttonText=""
-        backgroundImage="./banner/RedSofaWhite.jpg"
+        backgroundImage="/banner/RedSofaWhite.jpg"
         onButtonClick={() => alert("Button Clicked!")}
       />
       </div>
@@ -143,7 +143,7 @@ const BlogFive = () => {
           title=""
           subtitle=""
           buttonText=""
-          backgroundImage="./banner/blog5.jpg"
+          backgroundImage="/banner/blog5.jpg"
           onButtonClick={() => alert("Button Clicked!")}
         />
       </div>
@@ -211,7 +211,7 @@ const BlogFive = () => {
               </button>
             </div> */}
             <div className="">
-              <img loading="lazy" src="./Cards/Blogcard2.jpg" alt="" />
+              <img loading="lazy" src="/Cards/Blogcard2.jpg" alt="" />
             </div>
           </div>
         </div>

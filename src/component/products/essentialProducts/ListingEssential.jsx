@@ -20,7 +20,7 @@ const ListingEssential = () => {
           <div className="col-span-5">
             <div className="mb-10 border hover:border-neutral-500 rounded-md p-10">
               <img
-                src="./home/sofa6.jpg"
+                src="/home/sofa6.jpg"
                 loading="lazy"
                 alt="Post Thumbnail"
                 className="w-full h-[25rem] rounded-md"
@@ -98,7 +98,7 @@ const ListingEssential = () => {
 
             <div className="mb-10 border hover:border-neutral-500 p-10">
               <img
-                src="./home/bedroom1.jpg"
+                src="/home/bedroom1.jpg"
                 loading="lazy"
                 alt="Post Thumbnail"
                 className="w-full h-[25rem] rounded-md"
@@ -145,7 +145,7 @@ const ListingEssential = () => {
           <div
             className=""
           >
-          <img src="./Cards/UltraPremium.jpg" loading="lazy" alt="" />
+          <img src="/Cards/UltraPremium.jpg" loading="lazy" alt="" />
           </div>
 
           {/* Categories Section */}
@@ -191,7 +191,7 @@ const ListingEssential = () => {
             <ul className="space-y-5">
               <li className="flex flex-row gap-2 items-center">
                 <img
-                  src="./listImages/recent-post-1.jpg"
+                  src="/listImages/recent-post-1.jpg"
                   alt="image"
                   className="h-20 w-20"
                 />
@@ -204,7 +204,7 @@ const ListingEssential = () => {
               </li>
               <li className="flex flex-row gap-2 items-center">
                 <img
-                  src="./listImages/recent-post-2.jpg"
+                  src="/listImages/recent-post-2.jpg"
                   alt="image"
                   className="h-20 w-20"
                 />
@@ -216,7 +216,7 @@ const ListingEssential = () => {
                 </p>
               </li>
               <li className="flex flex-row gap-2 items-center">
-                <img src="./home/" alt="image" className="h-20 w-20" />
+                <img src="/home/" alt="image" className="h-20 w-20" />
                 <p className="flex flex-col gap-1">
                   <a href="#" className="block text-gray-700 hover:text-black">
                     Plan Your Project with Your Software

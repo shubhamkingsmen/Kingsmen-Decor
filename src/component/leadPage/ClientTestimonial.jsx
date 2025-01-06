@@ -8,21 +8,21 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 const ClientTestimonial = () => {
   const clientArray = [
     {
-      img: "./member4.jpg",
+      img: "/public/member4.jpg",
       name: "Ramesh Nair",
       designation: "Businessman",
       title: "Home Interiors",
       des: "Kingsmen Decors has completely transformed my home with their impeccable finishes. The attention to detail and the quality of materials used are unparalleled. Their team took the time to understand my preferences and delivered results that exceeded my expectations. My living space now exudes a luxurious charm that never fails to impress my guests!",
     },
     {
-      img: "./member5.jpg",
+      img: "/public/member5.jpg",
       name: "Priya Sharma",
       designation: "Homemaker",
       title: "Home Renovation",
       des: "Choosing Kingsmen Decors was the best decision I made for my interior renovation. From the consultation to the final touches, their professionalism and expertise were evident. The veneer and metallic finishes they suggested added a modern yet elegant vibe to my home. I couldn't be happier with the outcome—it truly feels like a work of art!",
     },
     {
-      img: "./member6.jpg",
+      img: "/public/member6.jpg",
       name: "Arvind Gupta",
       designation: "Doctor",
       title: "Home Interiors",

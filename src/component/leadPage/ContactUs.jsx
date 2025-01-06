@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const ContactUsForm = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
-  const [contact, setcontact] = useState("");
+  const [contact, setContact] = useState("");
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
 
@@ -82,7 +82,7 @@ const ContactUsForm = () => {
       // Reset form
       setFullName("");
       setEmail("");
-      setcontact("");
+      setContact("");
       setMessage("");
     }
   };
@@ -214,7 +214,7 @@ const ContactUs = () => {
             title=""
             subtitle=""
             buttonText=""
-            backgroundImage="./banner/Contact_Us_bannaer_1920x500.jpg"
+            backgroundImage="/public/banner/Contact_Us_bannaer_1920x500.jpg"
             onButtonClick={() => alert("Button Clicked!")}
           />
         </div>
@@ -223,7 +223,7 @@ const ContactUs = () => {
             title=""
             subtitle=""
             buttonText=""
-            backgroundImage="./banner/Contact_Mobile_Version_Banner.jpg"
+            backgroundImage="/public/banner/Contact_Mobile_Version_Banner.jpg"
             onButtonClick={() => alert("Button Clicked!")}
           />
         </div>
@@ -255,7 +255,7 @@ const ContactUs = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
                 style={{
-                  backgroundImage: 'url("./teams/ContactDetails.jpg")',
+                  backgroundImage: 'url("/public/teams/ContactDetails.jpg")',
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                   transform: "rotateY(5deg)",

@@ -6,7 +6,7 @@ const profiles = [
   {
     name: "Anees Antapur",
     title: "Meet Our Founder",
-    img:"./teams/AneesAntapur.jpg",
+    img:"/public/teams/AneesAntapur.jpg",
     role: "Founder",
     links: {
       linkedin: "https://www.linkedin.com/in/anees-antapur/?original_referer=https%3A%2F%2Fkingsmenrealty.com%2F",
@@ -18,7 +18,7 @@ const profiles = [
   {
     name: "Ravi Kumar",
     title: "Meet Our Co-Founder",
-    img:"./teams/raviIMage.jpeg",
+    img:"/public/teams/raviIMage.jpeg",
     role: "Co-Founder",
     links: {
       linkedin: "#",

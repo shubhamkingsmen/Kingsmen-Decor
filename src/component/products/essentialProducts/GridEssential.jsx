@@ -5,7 +5,7 @@ import PopUpForm from "../../PopUpForm/PopUpForm";
 const GridEssential = () => {
   const posts = [
     {
-      image: "./home/sofa6.jpg",
+      image: "/public/home/sofa6.jpg",
       tag: "INTERIOR",
       title: "Functional Furniture",
       date: "March 19, 2020",
@@ -13,7 +13,7 @@ const GridEssential = () => {
       description: "A Practical Design for Everyday in Premium",
     },
     {
-      image: "./home/dining2.jpg",
+      image: "/public/home/dining2.jpg",
       tag: "INTERIOR",
       title: "Minimalist Dining Setup",
       date: "March 19, 2020",
@@ -21,7 +21,7 @@ const GridEssential = () => {
       description: "Simple, Effective, and Economic",
     },
     {
-      image: "./home/bedroom8.jpg",
+      image: "/public/home/bedroom8.jpg",
       tag: "INTERIOR",
       title: "Comfortable Bedrooms",
       date: "March 19, 2020",
@@ -30,7 +30,7 @@ const GridEssential = () => {
     },
     
     {
-      image: "./home/balcony1.jpg",
+      image: "/public/home/balcony1.jpg",
       tag: "INTERIOR",
       title: "Cozy Balcony",
       date: "March 19, 2020",
@@ -38,7 +38,7 @@ const GridEssential = () => {
       description: "An Inviting, Minimalist Retreat",
     },
     {
-      image: "./home/bathroom3.jpg",
+      image: "/public/home/bathroom3.jpg",
       tag: "INTERIOR",
       title: "Practical Bathrooms",
       date: "March 19, 2020",
@@ -46,7 +46,7 @@ const GridEssential = () => {
       description: "Clean, Functional Design for a Fresh Feel",
     },
     {
-      image: "./home/outdoorSimple.jpg",
+      image: "/public/home/outdoorSimple.jpg",
       tag: "OUTDOOR",
       title: "Simple Outdoors",
       date: "March 19, 2020",

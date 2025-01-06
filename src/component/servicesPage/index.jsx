@@ -15,7 +15,7 @@ const ServicePage = () => {
           title=""
           subtitle=""
           buttonText=""
-          backgroundImage="./banner/Services_Page_bannaer_1920x500.jpg"
+          backgroundImage="/public/banner/Services_Page_bannaer_1920x500.jpg"
           onButtonClick={() => alert("Button Clicked!")}
         />
       </div>
@@ -24,7 +24,7 @@ const ServicePage = () => {
           title=""
           subtitle=""
           buttonText=""
-          backgroundImage="./banner/Services_Mobile_Version_Banner.jpg"
+          backgroundImage="/public/banner/Services_Mobile_Version_Banner.jpg"
           onButtonClick={() => alert("Button Clicked!")}
         />
       </div>

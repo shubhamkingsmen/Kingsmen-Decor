@@ -8,25 +8,25 @@ const WoodFinishes = () => {
       title: "Matte Chic",
       description:
         "A matte finish is understated sophistication, perfect for minimalist as well as Scandinavian-inspired environments. It retains the organic quality of the wood, giving the touch a soft, velvety feel that provides warmth.",
-      image: "./finishes/wood1.jpg",
+      image: "/finishes/wood1.jpg",
     },
     {
       title: "Timeless Elegance Charm",
       description:
         "Distressed wood finishes create an aged, vintage look that adds character to rustic and traditional interiors. It showcases imperfections, thus accentuating the raw, authentic quality of the wood.",
-      image: "./finishes/wood2.jpg",
+      image: "/finishes/wood2.jpg",
     },
     {
       title: "Exotic Veneers",
       description:
         "Exotic wood veneers such as ebony, walnut burl, and zebrawood add an exclusive feel to luxury interiors. These rare, intricately patterned veneers are perfect for bespoke furniture, wall panels, and cabinetry.",
-      image: "./finishes/wood3.jpg",
+      image: "/finishes/wood3.jpg",
     },
     {
       title: "Stained Refinement",
       description:
         "Deep stains or rich tones bring out the unique hues within the wood. From rich espresso to deep mahogany, stained finishes add flexibility without any sacrifice of luxury.",
-      image: "./finishes/wood4.jpg",
+      image: "/finishes/wood4.jpg",
     },
   ];
 

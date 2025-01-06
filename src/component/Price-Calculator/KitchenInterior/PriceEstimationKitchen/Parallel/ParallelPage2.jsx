@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { TextField, MenuItem } from "@mui/material";
+import Parallelshape from "../../../../../../public/Images/parallel.jpg";
 
 function ParallelshapedPage2() {
   const [selectedLayout, setSelectedLayout] = useState("");
   const [cornerSize, setCornerSize] = useState("");
   const [straightSize, setStraightSize] = useState("");
 
-  let navigate = useNavigate();
+  let NavigateToParallelPackage=useNavigate()
 
   const containerVariants = {
     hidden: { opacity: 0, scale: 0.9 },
@@ -32,9 +33,7 @@ function ParallelshapedPage2() {
     visible: { opacity: 1, x: 0 },
   };
 
-  const layouts = [
-    { id: "parallel-shaped", name: "Parallel-shaped", img: "/images/parallel.jpg" },
-  ];
+  const layouts = [{ id: "parallel-shaped", name: "Parallel-shaped", img: Parallelshape }];
 
   const isNextButtonEnabled = cornerSize && straightSize;
 
@@ -124,8 +123,8 @@ function ParallelshapedPage2() {
             variants={itemVariants}
             whileHover={{ scale: 1.1 }}
             className="text-red-600 font-semibold"
-            onClick={() => {
-              navigate("/kitcheninterior/layout");
+            onClick={()=>{
+              NavigateToParallelPackage("/kitcheninterior/layout")
             }}
           >
             Back
@@ -143,9 +142,9 @@ function ParallelshapedPage2() {
                 ? "bg-green-500 hover:bg-yellow-700"
                 : "bg-gray-300 cursor-not-allowed"
             }`}
-            onClick={() => {
-              console.log("Navigating to the next page...");
-              navigate("/kitcheninterior/layout/parallel-size/package");
+
+            onClick={()=>{
+              NavigateToParallelPackage("/kitcheninterior/layout/parallel-size/package")
             }}
           >
             Next

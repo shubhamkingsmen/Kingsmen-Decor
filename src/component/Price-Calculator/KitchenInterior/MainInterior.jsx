@@ -5,11 +5,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import PopUpForm from "../../PopUpForm/PopUpForm";
 
-import Lshape from "./interior/lshaped.jpg";
-import lsland from "./interior/lsland.jpg";
-import Ushape from "./interior/UShaped.jpg";
-import Straight from "./interior/Straight.jpg";
-import Parallel from "./interior/parllel.jpg";
+import Lshape from "../../../../public/interior/lshaped.jpg";
+import lsland from "../../../../public/interior/lsland.jpg";
+import Ushape from "../../../../public/interior/UShaped.jpg";
+import Straight from "../../../../public/interior/Straight.jpg";
+import Parallel from "../../../../public/interior/parllel.jpg";
 import { DiFsharp } from "react-icons/di";
 import { FcWorkflow } from "react-icons/fc";
 import { GiReceiveMoney } from "react-icons/gi";

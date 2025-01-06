@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import image1bhk from "./images/1bhk.jpg";
-import image2bhk from "./images/2bhk.jpg";
-import image3bhk from "./images/3bhk.png";
+import image1bhk from "../../../../../public/Images/1bhk.jpg";
+import image2bhk from "../../../../../public/Images/2bhk.jpg";
+import image3bhk from "../../../../../public/Images/3bhk.png";
 
 // Animation Variants
 const containerVariants = {

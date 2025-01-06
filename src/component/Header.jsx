@@ -106,13 +106,13 @@ const Header = () => {
   };
 
   const imgArray = [
-    { id: "1", name: "Sofa 1", src: "./images/galleryOne.jpg" },
-    { id: "9", name: "Bedroom 1", src: "./images/galleryTwo.jpeg" },
-    { id: "3", name: "Balcony 3", src: "./images/galleryThree.jpg" },
-    { id: "5", name: "Bedroom 2", src: "./images/galleryFour.jpg" },
+    { id: "1", name: "Sofa 1", src: "/public/images/galleryOne.jpg" },
+    { id: "9", name: "Bedroom 1", src: "/public/images/galleryTwo.jpeg" },
+    { id: "3", name: "Balcony 3", src: "/public/images/galleryThree.jpg" },
+    { id: "5", name: "Bedroom 2", src: "/public/images/galleryFour.jpg" },
     { id: "6", name: "Balcony 4", src: "/images/galleryFive.jpg" },
-    { id: "2", name: "Sofa 2", src: "./images/galleryEight.jpg" },
-    { id: "8", name: "Kitchen 3", src: "./images/gallerySeven.jpg" },
+    { id: "2", name: "Sofa 2", src: "/public/images/galleryEight.jpg" },
+    { id: "8", name: "Kitchen 3", src: "/public/images/gallerySeven.jpg" },
   ];
 
   const [openImage, setOpenImage] = useState(false);
@@ -168,7 +168,7 @@ const Header = () => {
             <Link to="/">
               <img
                 loading="lazy"
-                src="./newLogo.png"
+                src="/newLogo.png"
                 alt="logo"
                 className="h-[7rem]"
               />
@@ -308,7 +308,7 @@ const Header = () => {
             <Link to="/">
               <img
                 loading="lazy"
-                src="./newLogo.png"
+                src="/newLogo.png"
                 alt="logo"
                 className="h-[5rem]"
               />
@@ -375,7 +375,7 @@ const Header = () => {
           <div className="flex items-center justify-center gap-[20rem]">
             <img
               loading="lazy"
-              src="./newLogo.png"
+              src="/newLogo.png"
               alt="logo"
               className="h-[8em]"
             />

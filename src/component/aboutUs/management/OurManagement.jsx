@@ -11,7 +11,7 @@ const OurManagement = () => {
           title=""
           subtitle=""
           buttonText=""
-          backgroundImage="./banner/AboutUs.jpg"
+          backgroundImage="/banner/AboutUs.jpg"
           onButtonClick={() => alert("Button Clicked!")}
         />
       </div>
@@ -22,7 +22,7 @@ const OurManagement = () => {
           title=""
           subtitle=""
           buttonText=""
-          backgroundImage="./banner/About_Us_Mobile_Version_Banner.jpg"
+          backgroundImage="/banner/About_Us_Mobile_Version_Banner.jpg"
           onButtonClick={() => alert("Button Clicked!")}
         />
       </div>

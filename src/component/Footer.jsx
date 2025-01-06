@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <div className="">
               <Link to="/">
-                <img loading="lazy" src="./logo.png" alt="logo" className="h-[10rem] " />
+                <img loading="lazy" src="/logo.png" alt="logo" className="h-[10rem] " />
               </Link>
             </div>
             <p className="text-sm mb-6">

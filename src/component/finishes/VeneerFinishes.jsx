@@ -37,7 +37,7 @@ const VeneerFinishes = () => {
           <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8">
             <img
             loading="lazy"
-              src="./finishes/tv1.jpg"
+              src="/finishes/tv1.jpg"
               className="rounded-lg shadow-lg w-full h-[24rem] object-cover"
               alt=""
             />
